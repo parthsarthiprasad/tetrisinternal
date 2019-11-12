@@ -322,7 +322,7 @@ public class Board extends JPanel {
 
             int keycode = e.getKeyCode();
 
-            // Java 12 switch expressions
+            // Java 11 switch expressions
             switch (keycode) {
 
                 case KeyEvent.VK_P :pause(); break;
